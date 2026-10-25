@@ -9,9 +9,9 @@ import { articleBySlug } from "@/data/articles";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Chile 360 — Descubrí Chile más allá del mapa" },
-      { name: "description", content: "Enciclopedia interactiva de Chile: geografía, historia, datos y desafíos para aprender." },
-      { property: "og:title", content: "Chile 360 — Descubrí Chile más allá del mapa" },
+      { title: "Chile 360 — Descubrí Chile" },
+      { name: "description", content: "web interactiva sobre Chile: geografía, historia, datos y juegos para aprender." },
+      { property: "og:title", content: "Chile 360 — Descubrí Chile" },
       { property: "og:description", content: "Explorá zonas, historia, datos y cuestionarios sobre Chile." },
     ],
   }),
